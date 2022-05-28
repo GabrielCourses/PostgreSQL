@@ -1,4 +1,4 @@
-CREATE TABLE clientes(
+CREATE TABLE customer(
 idcliente INTEGER,
 	nombre VARCHAR(45),
 	apellidopaterno VARCHAR(45),
@@ -10,7 +10,7 @@ idcliente INTEGER,
 	tipocliente CHARACTER(1)
 	);
 	
-	INSERT INTO clientes VALUES(1000,'Alberto','Esparza','Suarez','2222222222','Mochis','Sinaloa',8000,'A'),
+	INSERT INTO customer VALUES(1000,'Alberto','Esparza','Suarez','2222222222','Mochis','Sinaloa',8000,'A'),
 	(1001,'Alberto','Gomez','Perez','2222222222','Mochis','Sinaloa',8000,'A'),
 	(1002,'Juan Jose','Sanchez','Guerra','2222222222','Mazatlan','Sinaloa',15000,'A'),
 	(1003,'Maria Antonia','Lopez','Gamez','2222222222','Guasave','Sinaloa',2500,'B'),

@@ -14,5 +14,3 @@ PostgresSQL is an open source descendant of this original of this original Berke
 - updatable views
 - transactional integrity
 - multiversion concurrency control
-
-Also, PostgreSQL
