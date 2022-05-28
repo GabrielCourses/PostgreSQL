@@ -10,9 +10,9 @@ Para empezar creamos una nueva base de datos llamada **Course** y teniendo selec
 
 - Seleccionamos query tool, donde creamos una tabla empleados con el comando CREATE TABLE().
 - Insertamos registros dentro de nuestra tabla con el comando INSERT INTO ().
-- Consultamos la tabla con el total de campos o solo con algunos con el comando SELECT * FROM \<table\>.
+- Consultamos la tabla con el total de campos o solo con algunos con el comando SELECT * FROM \<table\>
 
-Ahora vamos a usar la tabla students que se encuentra en la carpeta **data.** Copiamos y pegamos el código dentro de query tools y ejecutamos con F5.
+Ahora vamos a usar la tabla student_table.txt que se encuentra en la carpeta **data.** Copiamos y pegamos el código dentro de **query tools** y ejecutamos con F5.
 
 ![](https://raw.githubusercontent.com/GabrielCourses/PostgreSQL/main/pgAdmin/image/students.png)
 
@@ -26,6 +26,16 @@ Podemos concatenar los campos usando ||, en caso de concatenar el nombre podemos
 
 Como se nota en la imagen anterior, la variable que acabamos de concatenar no tiene nombre, esto lo resolvemos declarando un alias.
 
+```
+-- Concatenate fields with ||
+SELECT nombre||' '||apellidopaterno||' '||apellidomaterno, carrera, promedio FROM students
+WHERE promedio < 90
+
+-- Assign alias to the variable concatenate
+SELECT nombre||' '||apellidopaterno||' '||apellidomaterno AS complete_name, carrera, promedio FROM students
+WHERE promedio < 90
+```
+
 ### Logical operators: AND, OR, NOT.
 
 Hasta ahora hemos filtrado usando un solo criterio, si queremos agregar mas condiciones, podemos hacer uso de los operadores lógicos **AND, OR, NOT.**
@@ -34,6 +44,9 @@ Hasta ahora hemos filtrado usando un solo criterio, si queremos agregar mas cond
 
 Copiamos el código del fichero customers_table.txt para la creación de la siguiente tabla.
 
-# DELATE tables, columns, registers, values.
+El CREATE y el INTO los encuentras en el fichero: customers_table.txt
+
+
+## DELATE tables, columns, registers, values.
 
 ### DELATE REGISTERS OF A TABLE.
