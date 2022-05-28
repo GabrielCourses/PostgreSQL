@@ -46,6 +46,7 @@ Copiamos el código del fichero customers_table.txt para la creación de la sigu
 
 El CREATE y el INTO los encuentras en el fichero: customers_table.txt
 
+
 ## DELATE tables, columns, registers, values.
 
 ### DELATE REGISTERS OF A TABLE.
