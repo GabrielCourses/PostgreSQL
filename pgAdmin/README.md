@@ -44,7 +44,7 @@ Hasta ahora hemos filtrado usando un solo criterio, si queremos agregar mas cond
 
 Copiamos el código del fichero <code>customers\_table.txt</code> para la creación de la siguiente tabla.
 
-El CREATE y el INTO los encuentras en el fichero: <code>customers\_table.txt<code>.
+El CREATE y el INTO los encuentras en el fichero: <code>customers\_table.txt</code>.
 
 
 ## DELATE tables, columns, registers, values.

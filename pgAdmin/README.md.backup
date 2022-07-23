@@ -44,7 +44,7 @@ Hasta ahora hemos filtrado usando un solo criterio, si queremos agregar mas cond
 
 Copiamos el código del fichero <code>customers\_table.txt</code> para la creación de la siguiente tabla.
 
-El CREATE y el INTO los encuentras en el fichero: <code>customers\_table.txt<code>.
+El CREATE y el INTO los encuentras en el fichero: <code>customers\_table.txt</code>.
 
 
 ## DELATE tables, columns, registers, values.
@@ -94,12 +94,12 @@ UPDATE employees SET salary=50000, puesto='Product Owner'
 WHERE numemloye=3
 ```
 
-### Sentencia «ORDER»
+### Sentencia «ORDER BY»
 
-Para ordenar una tabla respecto a algún campo usamos la sentencia <code>order</code>:
+Para ordenar una tabla respecto a algún campo usamos la sentencia <code>ORDER BY</code>:
 
 ```
-SELECT * FROM \<table\> ORDER \<field\>
+SELECT * FROM \<table\> ORDER BY \<field\>
 
 --Ordenar de manera descendiente
 SELECT * FROM employees
@@ -109,6 +109,8 @@ ORDER BY = numemploye DESC
 Volvemos a cargar la tabla <code>customers</code> y ordenamos el campo <code>totaldeuda<code> de mayor a menor.
 
 ## Sentencia «GROUP BY»
+
+
 
 
 
