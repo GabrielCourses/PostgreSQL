@@ -94,12 +94,12 @@ UPDATE employees SET salary=50000, puesto='Product Owner'
 WHERE numemloye=3
 ```
 
-### Sentencia «ORDER BY»
+### Sentencia «ORDER»
 
-Para ordenar una tabla respecto a algún campo usamos la sentencia <code>ORDER BY</code>:
+Para ordenar una tabla respecto a algún campo usamos la sentencia <code>order</code>:
 
 ```
-SELECT * FROM \<table\> ORDER BY \<field\>
+SELECT * FROM \<table\> ORDER \<field\>
 
 --Ordenar de manera descendiente
 SELECT * FROM employees
@@ -109,8 +109,6 @@ ORDER BY = numemploye DESC
 Volvemos a cargar la tabla <code>customers</code> y ordenamos el campo <code>totaldeuda<code> de mayor a menor.
 
 ## Sentencia «GROUP BY»
-
-
 
 
 
